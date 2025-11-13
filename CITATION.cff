@@ -1,0 +1,82 @@
+cff-version: 1.2.0
+message: "If you use this dataset or replication code, please cite the paper as below."
+type: dataset
+title: "Uruguay and the Fossilization Meme: Testing Ultraactivity Beyond Argentina - Replication Materials"
+version: 1.0.0
+date-released: "2025-11-13"
+url: "https://github.com/adrianlerer/uruguay-ultraactivity-reform"
+repository-code: "https://github.com/adrianlerer/uruguay-ultraactivity-reform"
+license: MIT
+
+authors:
+  - family-names: Lerer
+    given-names: "Ignacio Adrián"
+    orcid: "https://orcid.org/0009-0007-6378-9749"
+    email: adrian@lerer.com.ar
+    affiliation: "Legal Evolution Lab"
+
+keywords:
+  - ultraactivity
+  - constitutional law
+  - institutional reform
+  - structural reform
+  - causal inference
+  - propensity score matching
+  - difference-in-differences
+  - synthetic control method
+  - Uruguay
+  - Latin America
+  - veto players
+  - median voter theorem
+  - electoral systems
+  - legal memes
+
+abstract: |
+  This repository contains replication materials for the paper "Uruguay and the 
+  Fossilization Meme: Testing Ultraactivity Beyond Argentina". The paper identifies 
+  ultraactivity—the indefinite persistence of legal norms beyond their stated term 
+  without democratic renewal—as a "fossilization meme" that locks institutions into 
+  their past. Using Uruguay's 1991 elimination of ultraactivity as a natural experiment, 
+  we show that structural reform success increased by +34 to +42 percentage points 
+  (robust across propensity score matching, difference-in-differences, and synthetic 
+  control methods). However, eliminating ultraactivity is necessary but not sufficient: 
+  Uruguay still fails 37% of reforms due to other "fossilization memes" (mandatory 
+  referendum, judicial activism, proportional representation).
+
+  The repository includes:
+  - 53 Uruguay structural reforms (1985-2025)
+  - 50 Argentina reforms (1989-2024, control group)
+  - 129 Chile reforms (1990-2024, benchmark)
+  - R scripts for all analyses (PSM, DiD, Synthetic Control)
+  - Stata scripts for robustness checks
+  - Complete documentation and replication guide
+
+references:
+  - type: article
+    title: "Uruguay and the Fossilization Meme: Testing Ultraactivity Beyond Argentina"
+    authors:
+      - family-names: Lerer
+        given-names: "Ignacio Adrián"
+    year: 2025
+    journal: "Available at SSRN"
+    url: "https://ssrn.com/abstract=XXXXXXX"
+    notes: "Working Paper"
+
+identifiers:
+  - type: url
+    value: "https://github.com/adrianlerer/uruguay-ultraactivity-reform"
+    description: "GitHub Repository"
+  - type: other
+    value: "XXXXXXX"
+    description: "SSRN Abstract ID (to be assigned)"
+
+preferred-citation:
+  type: article
+  title: "Uruguay and the Fossilization Meme: Testing Ultraactivity Beyond Argentina"
+  authors:
+    - family-names: Lerer
+      given-names: "Ignacio Adrián"
+      orcid: "https://orcid.org/0009-0007-6378-9749"
+  year: 2025
+  journal: "Available at SSRN"
+  url: "https://ssrn.com/abstract=XXXXXXX"

@@ -1,0 +1,91 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Stata
+*.dta~
+*.log
+*.smcl
+*.gph
+*.do~
+
+# Output (comment out if you want to commit outputs)
+# output/tables/*.tex
+# output/figures/*.pdf
+# output/logs/*.txt
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (if any auxiliary scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large data files (if not committed)
+# Uncomment if raw data too large for Git
+# data/raw/*.csv
+# data/raw/*.xlsx
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.rar
+
+# Sensitive information (never commit)
+config.yml
+credentials.json
+.env
+
+# Build artifacts
+dist/
+build/
+*.egg
